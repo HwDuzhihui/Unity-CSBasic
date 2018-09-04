@@ -6,13 +6,10 @@ public class Learn_Vertor3 : MonoBehaviour {
 
 
 	void Start () {
-        //坐标变换包括旋转、平移、缩放
-        //欧拉旋转、四元数、矩阵旋转
 
-        //欧拉旋转缺点是有万象锁的存在，欧拉旋转是按照一定顺序旋转Unitys是ZXY
-        //当有两个轴向重合时会丢失一个重合方向的旋转能力
         
         //Vector3.Angle() [0,180]
+        //两个向量的夹角
         Vector3 a0 = new Vector3(0, 1, 1);
         Vector3 a1 = new Vector3(2, 1, 0);
         float angle0 = Vector3.Angle(a0, a1);
